@@ -1,6 +1,5 @@
 import 'package:amplify_flutter/amplify_flutter.dart';
 import 'package:flutter/material.dart';
-
 import 'amplifyconfiguration.dart';
 
 Future<void> main() async {
