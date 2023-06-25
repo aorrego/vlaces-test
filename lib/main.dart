@@ -54,7 +54,7 @@ class _MyHomePageState extends State<MyHomePage> {
     String type = '(regions)';
     String _session = '904de719-7a71-49c0-82d4-d990864dab30';
     String baseURL =
-        'https://maps.googleapis.com/maps/api/place/autocomplete/json';
+        'https://cors-anywhere.herokuapp.com/https://maps.googleapis.com/maps/api/place/autocomplete/json';
     Uri request = Uri.parse(
         '$baseURL?input=$input&key=$kPLACES_API_KEY&sessiontoken=$_session');
 
